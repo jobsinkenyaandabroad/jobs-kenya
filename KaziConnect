@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jobs in Kenya & Abroad | Official Recruitment & CV Portal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    .bg-safaricom { background-color: #00A859; }
+    .text-safaricom { color: #00A859; }
+    .border-safaricom { border-color: #00A859; }
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-emerald-500 selection:text-white">
+
+  <!-- Top Announcement Bar: Facebook Trust & Verified Contacts -->
+  <div class="bg-slate-900 text-white text-xs sm:text-sm py-2 px-4 border-b border-slate-800">
+    <div class="max-w-6xl mx-auto flex flex-wrap justify-between items-center gap-2">
+      <div class="flex items-center gap-2">
+        <span class="inline-flex items-center justify-center w-5 h-5 bg-blue-600 rounded-full text-white text-[11px]">
+          <i class="fab fa-facebook-f"></i>
+        </span>
+        <span>Official Portal of our <strong>13,000+ Followers</strong> Facebook Community</span>
+      </div>
+      <div class="flex items-center gap-4 text-xs">
+        <span class="hidden sm:inline text-slate-300">
+          <i class="fas fa-money-bill-wave text-emerald-400 mr-1"></i> M-Pesa Pay: <strong>0708 743 931</strong>
+        </span>
+        <a href="https://wa.me/254739658520?text=Hello%20Admin,%20inquiry%20from%20Jobs%20Kenya%20website" target="_blank" class="bg-emerald-600 hover:bg-emerald-500 text-white px-2.5 py-1 rounded font-semibold transition flex items-center gap-1.5 shadow-sm">
+          <i class="fab fa-whatsapp"></i> WhatsApp Desk: <strong>0739 658 520</strong>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation -->
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-40 shadow-sm">
+    <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-emerald-700 text-white flex items-center justify-center font-black text-xl shadow">
+          K
+        </div>
+        <div>
+          <span class="text-lg font-black tracking-tight text-slate-900 block leading-tight">
+            KaziKenya<span class="text-emerald-600">&Abroad</span>
+          </span>
+          <span class="text-[10px] text-slate-500 uppercase font-bold tracking-wider">Recruitment & CV Hub</span>
+        </div>
+      </div>
+
+      <nav class="hidden md:flex items-center gap-6 text-sm font-semibold text-slate-600">
+        <a href="#vacancies" class="hover:text-emerald-700 transition">Latest Jobs</a>
+        <a href="#cv-service" class="text-amber-700 bg-amber-50 px-3 py-1.5 rounded-lg border border-amber-200 hover:bg-amber-100 transition flex items-center gap-1.5">
+          <i class="fas fa-wand-magic-sparkles text-amber-600"></i> CV Revamp (KES 300)
+        </a>
+        <a href="#employers" class="hover:text-emerald-700 transition">Employer CV Bank</a>
+        <a href="#faq" class="hover:text-emerald-700 transition">FAQs</a>
+        <a href="#register" class="bg-emerald-600 text-white px-4 py-2 rounded-lg font-bold hover:bg-emerald-700 transition shadow">
+          Register Profile (KES 199)
+        </a>
+        <button onclick="toggleAdminModal()" class="text-slate-400 hover:text-slate-700 text-xs flex items-center gap-1" title="Portal Admin">
+          <i class="fas fa-lock"></i> Admin
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-b from-slate-900 via-emerald-950 to-slate-900 text-white py-16 px-4">
+    <div class="max-w-4xl mx-auto text-center space-y-5">
+      <div class="inline-flex items-center gap-2 bg-emerald-500/20 border border-emerald-400/30 px-3.5 py-1.5 rounded-full text-xs font-semibold text-emerald-300">
+        <i class="fas fa-shield-alt"></i> Backed by 13,000+ Job Seekers & Verified Employers
+      </div>
+      <h1 class="text-3xl sm:text-5xl font-black tracking-tight leading-tight">
+        Connect to Top Jobs in Kenya, Gulf & Overseas
+      </h1>
+      <p class="text-slate-300 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
+        List your CV for 6 months to verified agencies and employers, or have our specialists format your CV into an ATS-friendly international standard for just KES 300.
+      </p>
+
+      <div class="flex flex-wrap justify-center gap-3 pt-3">
+        <a href="#register" class="bg-safaricom text-white font-black px-6 py-3.5 rounded-xl hover:bg-emerald-600 shadow-lg transition flex items-center gap-2 text-sm">
+          <i class="fas fa-user-check"></i> Register Profile (KES 199 / 6 Mo)
+        </a>
+        <a href="#cv-service" class="bg-amber-500 text-slate-950 font-black px-6 py-3.5 rounded-xl hover:bg-amber-400 shadow-lg transition flex items-center gap-2 text-sm">
+          <i class="fas fa-file-invoice"></i> Order CV Revamp (KES 300)
+        </a>
+      </div>
+
+      <!-- Live Trust Counters -->
+      <div class="pt-8 grid grid-cols-3 max-w-lg mx-auto gap-4 border-t border-slate-800 text-center">
+        <div>
+          <div class="text-xl sm:text-2xl font-black text-emerald-400">13,000+</div>
+          <div class="text-[11px] text-slate-400 uppercase font-medium">Followers</div>
+        </div>
+        <div>
+          <div class="text-xl sm:text-2xl font-black text-amber-400">KES 199</div>
+          <div class="text-[11px] text-slate-400 uppercase font-medium">6 Months Listing</div>
+        </div>
+        <div>
+          <div class="text-xl sm:text-2xl font-black text-emerald-400">24-48 Hrs</div>
+          <div class="text-[11px] text-slate-400 uppercase font-medium">CV Turnaround</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hot Vacancies Preview -->
+  <section id="vacancies" class="py-12 px-4 max-w-6xl mx-auto">
+    <div class="flex flex-col sm:flex-row justify-between items-start sm:items-end mb-6 gap-2">
+      <div>
+        <span class="text-xs font-bold uppercase tracking-wider text-emerald-700">Recent Opportunities</span>
+        <h2 class="text-2xl font-extrabold text-slate-900">Featured Kenya & Overseas Openings</h2>
+      </div>
+      <a href="#register" class="text-xs font-bold text-emerald-700 hover:underline">Register to apply for all roles &rarr;</a>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+      <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm space-y-3 flex flex-col justify-between">
+        <div class="space-y-2">
+          <div class="flex justify-between items-start">
+            <span class="bg-blue-100 text-blue-800 text-[10px] font-black px-2 py-0.5 rounded uppercase">Dubai, UAE</span>
+            <span class="text-emerald-700 font-bold text-xs">KES 75,000 - 95,000/mo</span>
+          </div>
+          <h3 class="font-bold text-slate-900">Hospitality & Waitstaff (12 Posts)</h3>
+          <p class="text-xs text-slate-500">Accommodation, transport, and medical cover provided by employer. Valid passport required.</p>
+        </div>
+        <button onclick="applyForRole('Hospitality / Waiter / Barista / Chef')" class="w-full text-center bg-slate-900 hover:bg-slate-800 text-white font-bold py-2 rounded-lg text-xs transition">
+          Apply via Profile
+        </button>
+      </div>
+
+      <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm space-y-3 flex flex-col justify-between">
+        <div class="space-y-2">
+          <div class="flex justify-between items-start">
+            <span class="bg-amber-100 text-amber-900 text-[10px] font-black px-2 py-0.5 rounded uppercase">Qatar</span>
+            <span class="text-emerald-700 font-bold text-xs">KES 65,000 - 85,000/mo</span>
+          </div>
+          <h3 class="font-bold text-slate-900">Security Officers & Marshals (20 Posts)</h3>
+          <p class="text-xs text-slate-500">Free visa and ticket processing for selected candidates with clean Certificate of Good Conduct.</p>
+        </div>
+        <button onclick="applyForRole('Security Guard / Watchman')" class="w-full text-center bg-slate-900 hover:bg-slate-800 text-white font-bold py-2 rounded-lg text-xs transition">
+          Apply via Profile
+        </button>
+      </div>
+
+      <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm space-y-3 flex flex-col justify-between">
+        <div class="space-y-2">
+          <div class="flex justify-between items-start">
+            <span class="bg-emerald-100 text-emerald-800 text-[10px] font-black px-2 py-0.5 rounded uppercase">Nairobi & Mombasa</span>
+            <span class="text-emerald-700 font-bold text-xs">KES 40,000 - 60,000/mo</span>
+          </div>
+          <h3 class="font-bold text-slate-900">Commercial Drivers & Logistics (6 Posts)</h3>
+          <p class="text-xs text-slate-500">Valid BCE license with minimum 3 years verifiable experience in fleet operations.</p>
+        </div>
+        <button onclick="applyForRole('Driver / Logistics / Heavy Equipment')" class="w-full text-center bg-slate-900 hover:bg-slate-800 text-white font-bold py-2 rounded-lg text-xs transition">
+          Apply via Profile
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Standalone CV Revamp Section (KES 300) -->
+  <section id="cv-service" class="py-12 px-4 bg-amber-50/60 border-y border-amber-200">
+    <div class="max-w-5xl mx-auto">
+      <div class="bg-white rounded-2xl shadow border border-amber-200 p-6 sm:p-8 flex flex-col md:flex-row items-center gap-8">
+        <div class="md:w-2/3 space-y-3">
+          <div class="inline-block bg-amber-100 text-amber-900 font-bold text-xs px-3 py-1 rounded-full uppercase tracking-wider">
+            Fast Track Service • Delivered to WhatsApp
+          </div>
+          <h2 class="text-2xl sm:text-3xl font-black text-slate-900">
+            Professional ATS CV Revamp (KES 300 Only)
+          </h2>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            Kenyan, Gulf (Qatar, UAE, Saudi Arabia), and European employers use applicant tracking systems (ATS) that automatically reject unstructured CVs. Get your CV restructured, polished, and delivered directly to your WhatsApp in both editable Word & PDF formats.
+          </p>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs font-semibold text-slate-700 pt-2">
+            <div class="flex items-center gap-2"><i class="fas fa-check-circle text-emerald-600"></i> Gulf & European ATS layout</div>
+            <div class="flex items-center gap-2"><i class="fas fa-check-circle text-emerald-600"></i> Passport & clearance badges highlighted</div>
+            <div class="flex items-center gap-2"><i class="fas fa-check-circle text-emerald-600"></i> Impactful achievement bullets</div>
+            <div class="flex items-center gap-2"><i class="fas fa-check-circle text-emerald-600"></i> 24 to 48 hours delivery</div>
+          </div>
+        </div>
+
+        <div class="md:w-1/3 w-full bg-slate-900 text-white rounded-xl p-6 text-center space-y-4 shadow-xl">
+          <span class="text-[11px] uppercase tracking-wider text-slate-400 font-bold">Standard Fee</span>
+          <div class="text-3xl font-black text-amber-400">KES 300</div>
+          <p class="text-[11px] text-slate-300">
+            Send KES 300 to M-Pesa: <br><strong class="text-emerald-400 text-sm">0708 743 931</strong>
+          </p>
+          <button onclick="orderCVRevampOnly()" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-2.5 rounded-lg transition text-xs flex items-center justify-center gap-2">
+            <i class="fab fa-whatsapp text-sm"></i> Order via WhatsApp Desk
+          </button>
+          <div class="text-[10px] text-slate-400">Support Line: 0739 658 520</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Job Seeker Registration + CV Upsell Form -->
+  <section id="register" class="py-14 px-4">
+    <div class="max-w-2xl mx-auto bg-white rounded-2xl shadow-xl border border-slate-200 p-6 sm:p-10">
+      <div class="text-center pb-6 border-b border-slate-100">
+        <span class="bg-emerald-100 text-emerald-800 text-xs font-bold px-3 py-1 rounded-full uppercase">Candidate Enrollment</span>
+        <h2 class="text-2xl sm:text-3xl font-black text-slate-900 mt-2">6-Month Profile Registration</h2>
+        <p class="text-xs sm:text-sm text-slate-500 mt-1">
+          Make your credentials visible to verified recruiters across Kenya, UAE, Qatar, and Saudi Arabia.
+        </p>
+      </div>
+
+      <form id="candidateForm" onsubmit="handleRegistrationSubmit(event)" class="mt-6 space-y-4">
+        <div>
+          <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">Full Official Name</label>
+          <input type="text" id="regName" required placeholder="e.g. Brian Otieno Kamau" class="w-full border border-slate-300 rounded-lg px-3.5 py-2.5 text-sm focus:ring-2 focus:ring-emerald-600 outline-none">
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">WhatsApp / Phone Number</label>
+            <input type="tel" id="regPhone" required placeholder="07XX XXX XXX" class="w-full border border-slate-300 rounded-lg px-3.5 py-2.5 text-sm focus:ring-2 focus:ring-emerald-600 outline-none">
+          </div>
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">Target Destination</label>
+            <select id="regDest" class="w-full border border-slate-300 rounded-lg px-3.5 py-2.5 text-sm focus:ring-2 focus:ring-emerald-600 outline-none bg-white">
+              <option>Gulf Countries (UAE, Qatar, Saudi)</option>
+              <option>Both Kenya & Abroad</option>
+              <option>Europe / UK (Caregivers, Hospitality)</option>
+              <option>Kenya Local Jobs Only</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">Passport Status</label>
+            <select id="regPassport" class="w-full border border-slate-300 rounded-lg px-3.5 py-2.5 text-sm focus:ring-2 focus:ring-emerald-600 outline-none bg-white">
+              <option>Valid Kenyan Passport (Ready)</option>
+              <option>Application in Progress</option>
+              <option>No Passport (Kenya Local Only)</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">Main Job Specialization</label>
+            <select id="regField" class="w-full border border-slate-300 rounded-lg px-3.5 py-2.5 text-sm focus:ring-2 focus:ring-emerald-600 outline-none bg-white">
+              <option>Security Guard / Watchman</option>
+              <option>Driver / Logistics / Heavy Equipment</option>
+              <option>Hospitality / Waiter / Barista / Chef</option>
+              <option>Healthcare / Nursing / Caregiver</option>
+              <option>Construction / Electrical / Plumbing</option>
+              <option>Administration / Reception / Cashier</option>
+              <option>General Work / Factory</option>
+            </select>
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">Upload Current CV (PDF or Word)</label>
+          <input type="file" id="regCV" accept=".pdf,.doc,.docx" required class="w-full border border-slate-300 border-dashed rounded-lg p-3 text-xs text-slate-600 bg-slate-50 cursor-pointer">
+          <p class="text-[10px] text-slate-400 mt-1">Accepted formats: .pdf, .docx, .doc (Max 5MB)</p>
+        </div>
+
+        <!-- The KES 300 CV Upsell Checkbox -->
+        <div class="bg-amber-50 border border-amber-300 rounded-xl p-4 transition">
+          <label class="flex items-start gap-3 cursor-pointer">
+            <input type="checkbox" id="cvUpsellCheckbox" onchange="updateTotalPayable()" class="mt-1 w-4 h-4 text-emerald-600 rounded border-slate-300 focus:ring-emerald-500">
+            <div>
+              <span class="text-xs sm:text-sm font-bold text-slate-900 flex items-center gap-2">
+                Add Professional CV Revamp (+ KES 300)
+                <span class="bg-amber-200 text-amber-950 text-[10px] font-black px-2 py-0.5 rounded">RECOMMENDED</span>
+              </span>
+              <p class="text-xs text-slate-600 mt-0.5">
+                Have our specialists redesign your CV into an international ATS standard before presenting to employers.
+              </p>
+            </div>
+          </label>
+        </div>
+
+        <!-- M-Pesa Code Input -->
+        <div>
+          <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">
+            M-Pesa Transaction Code (Optional if paying after submission)
+          </label>
+          <input type="text" id="regMpesaCode" placeholder="e.g. SK82KL90PQ" class="w-full border border-slate-300 rounded-lg px-3.5 py-2.5 text-sm uppercase tracking-wider font-mono focus:ring-2 focus:ring-emerald-600 outline-none">
+          <p class="text-[10px] text-slate-400 mt-1">Send to M-Pesa: <strong>0708 743 931</strong> then paste the confirmation code here.</p>
+        </div>
+
+        <!-- Fee Summary -->
+        <div class="bg-slate-50 border border-slate-200 rounded-xl p-4 text-xs space-y-1.5">
+          <div class="flex justify-between text-slate-600">
+            <span>6-Month Platform Listing Fee:</span>
+            <span class="font-bold text-slate-800">KES 199</span>
+          </div>
+          <div id="upsellSummaryRow" class="flex justify-between text-amber-700 hidden">
+            <span>ATS CV Revamp Service:</span>
+            <span class="font-bold">KES 300</span>
+          </div>
+          <div class="border-t border-slate-200 pt-2 flex justify-between text-sm font-black text-slate-900">
+            <span>Total Payable via M-Pesa:</span>
+            <span id="totalPayableText" class="text-emerald-700 text-base">KES 199</span>
+          </div>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" id="submitBtn" class="w-full bg-safaricom text-white font-black py-3.5 rounded-xl hover:bg-emerald-600 transition shadow-lg flex items-center justify-center gap-2 text-sm">
+          <i class="fas fa-lock"></i> Submit & Complete via WhatsApp Desk
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Employer CV Bank & Live Candidate Search -->
+  <section id="employers" class="py-14 bg-slate-100 px-4 border-t border-slate-200">
+    <div class="max-w-6xl mx-auto space-y-6">
+      <div class="text-center max-w-xl mx-auto">
+        <span class="bg-emerald-100 text-emerald-800 text-xs font-bold px-3 py-1 rounded-full uppercase">For Recruiters & Agencies</span>
+        <h2 class="text-2xl sm:text-3xl font-black text-slate-900 mt-2">Search Verified Candidate CV Bank</h2>
+        <p class="text-xs sm:text-sm text-slate-600 mt-1">Filter candidates and unlock 20 verified profiles with direct contacts for KES 1,000.</p>
+      </div>
+
+      <!-- Filter Bar -->
+      <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm flex flex-wrap gap-3 items-center justify-between">
+        <div class="flex flex-wrap gap-2 w-full sm:w-auto">
+          <select id="empFilterField" onchange="filterCandidateBank()" class="text-xs border border-slate-300 rounded-lg px-3 py-2 outline-none focus:ring-2 focus:ring-emerald-600 bg-white">
+            <option value="all">All Fields</option>
+            <option value="Security">Security Guard</option>
+            <option value="Driver">Driver / Logistics</option>
+            <option value="Healthcare">Healthcare / Nurse</option>
+            <option value="Hospitality">Hospitality / Chef</option>
+            <option value="Construction">Construction</option>
+          </select>
+          <select id="empFilterPassport" onchange="filterCandidateBank()" class="text-xs border border-slate-300 rounded-lg px-3 py-2 outline-none focus:ring-2 focus:ring-emerald-600 bg-white">
+            <option value="all">All Passport Statuses</option>
+            <option value="Ready">Passport Ready</option>
+            <option value="Progress">In Progress</option>
+          </select>
+        </div>
+        <button onclick="orderEmployerPass()" class="w-full sm:w-auto bg-emerald-700 hover:bg-emerald-800 text-white font-bold px-4 py-2 rounded-lg text-xs transition shadow flex items-center justify-center gap-1.5">
+          <i class="fas fa-key"></i> Unlock 20 Contacts (KES 1,000)
+        </button>
+      </div>
+
+      <!-- Candidates Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5" id="candidateCardsContainer">
+        <div class="candidate-card bg-white p-5 rounded-xl shadow-sm border border-slate-200 space-y-3" data-field="Security" data-passport="Ready">
+          <div class="flex justify-between items-start">
+            <div>
+              <h3 class="font-bold text-slate-900">John M. (Verified)</h3>
+              <p class="text-xs text-slate-500">Security Guard • 4 Yrs Exp</p>
+            </div>
+            <span class="bg-emerald-100 text-emerald-700 text-[10px] font-bold px-2 py-0.5 rounded">Passport Ready</span>
+          </div>
+          <p class="text-xs text-slate-600">Targeting Qatar / UAE. Police clearance certificate verified.</p>
+          <div class="bg-slate-50 p-2 rounded text-xs text-slate-400 select-none blur-[3px]">
+            Tel: +254 712 *** *** | Email: j***@gmail.com
+          </div>
+          <button onclick="orderEmployerPass()" class="w-full border border-emerald-600 text-emerald-700 text-xs font-bold py-2 rounded-lg hover:bg-emerald-50 transition">
+            Unlock Full Profile
+          </button>
+        </div>
+
+        <div class="candidate-card bg-white p-5 rounded-xl shadow-sm border border-slate-200 space-y-3" data-field="Healthcare" data-passport="Ready">
+          <div class="flex justify-between items-start">
+            <div>
+              <h3 class="font-bold text-slate-900">Faith W. (Verified)</h3>
+              <p class="text-xs text-slate-500">Certified Nurse / Caregiver</p>
+            </div>
+            <span class="bg-blue-100 text-blue-700 text-[10px] font-bold px-2 py-0.5 rounded">UK / Gulf Ready</span>
+          </div>
+          <p class="text-xs text-slate-600">KRCHN Registered Nurse. BLS & First Aid certified.</p>
+          <div class="bg-slate-50 p-2 rounded text-xs text-slate-400 select-none blur-[3px]">
+            Tel: +254 722 *** *** | Email: f***@yahoo.com
+          </div>
+          <button onclick="orderEmployerPass()" class="w-full border border-emerald-600 text-emerald-700 text-xs font-bold py-2 rounded-lg hover:bg-emerald-50 transition">
+            Unlock Full Profile
+          </button>
+        </div>
+
+        <div class="candidate-card bg-white p-5 rounded-xl shadow-sm border border-slate-200 space-y-3" data-field="Driver" data-passport="Ready">
+          <div class="flex justify-between items-start">
+            <div>
+              <h3 class="font-bold text-slate-900">David K. (Verified)</h3>
+              <p class="text-xs text-slate-500">Commercial Driver (BCE)</p>
+            </div>
+            <span class="bg-emerald-100 text-emerald-700 text-[10px] font-bold px-2 py-0.5 rounded">Passport Ready</span>
+          </div>
+          <p class="text-xs text-slate-600">Clean 7-year driving record, defensive driving certified.</p>
+          <div class="bg-slate-50 p-2 rounded text-xs text-slate-400 select-none blur-[3px]">
+            Tel: +254 733 *** *** | Email: d***@outlook.com
+          </div>
+          <button onclick="orderEmployerPass()" class="w-full border border-emerald-600 text-emerald-700 text-xs font-bold py-2 rounded-lg hover:bg-emerald-50 transition">
+            Unlock Full Profile
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Frequently Asked Questions (Accordion) -->
+  <section id="faq" class="py-14 px-4 max-w-4xl mx-auto">
+    <div class="text-center mb-8">
+      <span class="text-xs font-bold uppercase tracking-wider text-emerald-700">Clear Answers</span>
+      <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900">Frequently Asked Questions</h2>
+    </div>
+
+    <div class="space-y-3">
+      <details class="group bg-white rounded-xl border border-slate-200 p-4 [&_summary::-webkit-details-marker]:hidden cursor-pointer shadow-sm">
+        <summary class="flex justify-between items-center font-bold text-slate-900 text-sm">
+          <span>How does the KES 199 registration fee work?</span>
+          <span class="transition group-open:rotate-180 text-emerald-700"><i class="fas fa-chevron-down"></i></span>
+        </summary>
+        <p class="text-xs text-slate-600 mt-2.5 leading-relaxed">
+          The KES 199 registration keeps your CV active and indexed in our verified candidate directory for 6 continuous months. Registered recruitment agencies and Gulf hiring managers screen this database directly when filling vacancies.
+        </p>
+      </details>
+
+      <details class="group bg-white rounded-xl border border-slate-200 p-4 [&_summary::-webkit-details-marker]:hidden cursor-pointer shadow-sm">
+        <summary class="flex justify-between items-center font-bold text-slate-900 text-sm">
+          <span>What do I receive when I pay KES 300 for the CV Revamp?</span>
+          <span class="transition group-open:rotate-180 text-emerald-700"><i class="fas fa-chevron-down"></i></span>
+        </summary>
+        <p class="text-xs text-slate-600 mt-2.5 leading-relaxed">
+          You receive an ATS-optimized CV delivered via WhatsApp within 24 to 48 hours. We restructure your experience into clean achievement bullets, highlight your passport readiness and clearances, and provide both an editable Microsoft Word (.docx) file and a clean PDF.
+        </p>
+      </details>
+
+      <details class="group bg-white rounded-xl border border-slate-200 p-4 [&_summary::-webkit-details-marker]:hidden cursor-pointer shadow-sm">
+        <summary class="flex justify-between items-center font-bold text-slate-900 text-sm">
+          <span>Where do I send the M-Pesa payment?</span>
+          <span class="transition group-open:rotate-180 text-emerald-700"><i class="fas fa-chevron-down"></i></span>
+        </summary>
+        <p class="text-xs text-slate-600 mt-2.5 leading-relaxed">
+          All payments are sent directly to official Safaricom line <strong>0708 743 931</strong>. After sending, you forward your confirmation SMS code to our WhatsApp Desk at <strong>0739 658 520</strong> for instant verification.
+        </p>
+      </details>
+
+      <details class="group bg-white rounded-xl border border-slate-200 p-4 [&_summary::-webkit-details-marker]:hidden cursor-pointer shadow-sm">
+        <summary class="flex justify-between items-center font-bold text-slate-900 text-sm">
+          <span>Can I register if I do not have a passport yet?</span>
+          <span class="transition group-open:rotate-180 text-emerald-700"><i class="fas fa-chevron-down"></i></span>
+        </summary>
+        <p class="text-xs text-slate-600 mt-2.5 leading-relaxed">
+          Yes! Select "Application in Progress" or "No Passport (Kenya Local Only)". We have local Kenyan vacancies (drivers, security, logistics, admin) in Nairobi, Mombasa, and across counties that do not require travel documents.
+        </p>
+      </details>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-slate-900 text-slate-400 text-xs py-10 px-4 border-t border-slate-800">
+    <div class="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4 text-center sm:text-left">
+      <div>
+        <p class="text-white font-bold text-sm">Jobs in Kenya & Abroad Portal</p>
+        <p class="mt-1 text-slate-400">
+          Official Community: 13,000+ Facebook Followers • 
+          M-Pesa Payment Line: <strong class="text-white">0708 743 931</strong> • 
+          WhatsApp Desk: <strong class="text-white">0739 658 520</strong>
+        </p>
+      </div>
+      <div class="flex items-center gap-3">
+        <a href="https://wa.me/254739658520" target="_blank" class="bg-emerald-600 hover:bg-emerald-500 text-white px-3 py-1.5 rounded-lg font-bold flex items-center gap-1.5 transition">
+          <i class="fab fa-whatsapp"></i> Chat Support Desk
+        </a>
+        <button onclick="toggleAdminModal()" class="text-slate-400 hover:text-white underline">
+          Admin Portal
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Desk Button -->
+  <a href="https://wa.me/254739658520?text=Hello%20Admin,%20inquiry%20regarding%20Jobs%20Kenya%20portal" 
+     target="_blank" 
+     title="Chat with WhatsApp Desk (0739 658 520)"
+     class="fixed bottom-5 right-5 bg-[#25D366] text-white p-3.5 rounded-full shadow-2xl flex items-center justify-center hover:scale-110 transition z-50">
+    <i class="fab fa-whatsapp text-2xl"></i>
+  </a>
+
+  <!-- Admin Dashboard Modal (PIN: 7439) -->
+  <div id="adminModal" class="fixed inset-0 bg-slate-950/80 z-50 flex items-center justify-center p-4 hidden backdrop-blur-sm">
+    <div class="bg-white rounded-2xl max-w-4xl w-full p-6 max-h-[90vh] overflow-y-auto shadow-2xl space-y-5">
+      <!-- Admin Login View -->
+      <div id="adminLoginView" class="max-w-sm mx-auto text-center space-y-4 py-6">
+        <div class="w-12 h-12 bg-emerald-100 text-emerald-700 rounded-full flex items-center justify-center mx-auto text-xl">
+          <i class="fas fa-user-shield"></i>
+        </div>
+        <h3 class="text-lg font-black text-slate-900">Admin Authentication</h3>
+        <p class="text-xs text-slate-500">Enter your security PIN to view registrations and revenue.</p>
+        <input type="password" id="adminPinInput" placeholder="Enter PIN (Default: 7439)" class="w-full border border-slate-300 rounded-lg px-3 py-2 text-center text-lg tracking-widest outline-none focus:ring-2 focus:ring-emerald-600">
+        <div class="flex gap-2">
+          <button onclick="verifyAdminPIN()" class="flex-1 bg-emerald-700 hover:bg-emerald-800 text-white font-bold py-2 rounded-lg text-xs transition">
+            Unlock
+          </button>
+          <button onclick="toggleAdminModal()" class="flex-1 bg-slate-200 hover:bg-slate-300 text-slate-700 font-bold py-2 rounded-lg text-xs transition">
+            Cancel
+          </button>
+        </div>
+        <p id="pinErrorMsg" class="text-xs text-red-500 font-bold hidden">Invalid PIN. Try again.</p>
+      </div>
+
+      <!-- Admin Panel View -->
+      <div id="adminPanelView" class="hidden space-y-5">
+        <div class="flex flex-wrap justify-between items-center border-b border-slate-200 pb-3 gap-2">
+          <div>
+            <h3 class="font-extrabold text-slate-900 text-lg">Candidate Registrations & Revenue</h3>
+            <p class="text-xs text-slate-500">M-Pesa: 0708 743 931 • WhatsApp Desk: 0739 658 520</p>
+          </div>
+          <div class="flex items-center gap-2">
+            <button onclick="exportCandidatesCSV()" class="bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold px-3 py-1.5 rounded-lg border border-slate-300 transition flex items-center gap-1.5">
+              <i class="fas fa-file-csv text-emerald-700"></i> Export CSV
+            </button>
+            <button onclick="toggleAdminModal()" class="text-slate-400 hover:text-slate-700 text-lg ml-2">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Metrics -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 text-center">
+          <div class="bg-slate-50 p-3 rounded-lg border border-slate-200">
+            <div class="text-[10px] uppercase font-bold text-slate-500">Total Leads</div>
+            <div class="text-xl font-black text-slate-900" id="adminTotalLeads">0</div>
+          </div>
+          <div class="bg-emerald-50 p-3 rounded-lg border border-emerald-200">
+            <div class="text-[10px] uppercase font-bold text-emerald-700">Verified Paid</div>
+            <div class="text-xl font-black text-emerald-700" id="adminPaidLeads">0</div>
+          </div>
+          <div class="bg-amber-50 p-3 rounded-lg border border-amber-200">
+            <div class="text-[10px] uppercase font-bold text-amber-700">CV Revamps</div>
+            <div class="text-xl font-black text-amber-700" id="adminRevampLeads">0</div>
+          </div>
+          <div class="bg-slate-900 text-white p-3 rounded-lg">
+            <div class="text-[10px] uppercase font-bold text-slate-400">Total Revenue</div>
+            <div class="text-xl font-black text-emerald-400" id="adminTotalRev">KES 0</div>
+          </div>
+        </div>
+
+        <!-- Candidate Leads Table -->
+        <div class="overflow-x-auto border border-slate-200 rounded-lg">
+          <table class="w-full text-left text-xs border-collapse">
+            <thead class="bg-slate-50 text-slate-600 font-bold border-b border-slate-200 uppercase text-[10px]">
+              <tr>
+                <th class="p-3">Candidate</th>
+                <th class="p-3">Field & Destination</th>
+                <th class="p-3">Total Due</th>
+                <th class="p-3">Status / Receipt</th>
+                <th class="p-3 text-right">Actions</th>
+              </tr>
+            </thead>
+            <tbody id="adminTableBody" class="divide-y divide-slate-100">
+              <!-- Dynamically populated from localStorage -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Numbers Configuration
+    const MPESA_PAYMENT_LINE = "0708 743 931";
+    const WHATSAPP_DESK_NUMBER = "254739658520";
+    const ADMIN_PASSCODE = "7439";
+
+    let currentPayable = 199;
+
+    // Toggle Fee Calculation
+    function updateTotalPayable() {
+      const isChecked = document.getElementById("cvUpsellCheckbox").checked;
+      const upsellRow = document.getElementById("upsellSummaryRow");
+      const totalText = document.getElementById("totalPayableText");
+
+      if (isChecked) {
+        currentPayable = 499;
+        upsellRow.classList.remove("hidden");
+        totalText.innerText = "KES 499";
+      } else {
+        currentPayable = 199;
+        upsellRow.classList.add("hidden");
+        totalText.innerText = "KES 199";
+      }
+    }
+
+    // Role Quick Apply Button
+    function applyForRole(roleName) {
+      document.getElementById("regField").value = roleName;
+      document.getElementById("register").scrollIntoView({ behavior: 'smooth' });
+    }
+
+    // Handle Form Submit
+    function handleRegistrationSubmit(e) {
+      e.preventDefault();
+
+      const name = document.getElementById("regName").value;
+      const phone = document.getElementById("regPhone").value;
+      const dest = document.getElementById("regDest").value;
+      const passport = document.getElementById("regPassport").value;
+      const field = document.getElementById("regField").value;
+      const cvInput = document.getElementById("regCV");
+      const cvRevamp = document.getElementById("cvUpsellCheckbox").checked;
+      const mpesaCode = document.getElementById("regMpesaCode").value.trim().toUpperCase() || "PENDING";
+
+      const cvFileName = cvInput.files[0] ? cvInput.files[0].name : "cv_document.pdf";
+
+      // Save to localStorage for Admin view
+      const candidateRecord = {
+        id: "CAN-" + Date.now().toString().slice(-6),
+        name,
+        phone,
+        dest,
+        passport,
+        field,
+        cvFileName,
+        cvRevamp,
+        mpesaCode,
+        amount: currentPayable,
+        status: mpesaCode !== "PENDING" ? "Submitted (Pending Check)" : "Payment Pending",
+        date: new Date().toLocaleDateString("en-GB")
+      };
+
+      const existing = JSON.parse(localStorage.getItem("kazi_candidates") || "[]");
+      existing.unshift(candidateRecord);
+      localStorage.setItem("kazi_candidates", JSON.stringify(existing));
+
+      // Display payment guidance alert
+      const instructions = 
+        `REGISTRATION RECEIVED!\n\n` +
+        `Amount Payable: KES ${currentPayable}\n` +
+        `1. Send KES ${currentPayable} to M-Pesa Line: ${MPESA_PAYMENT_LINE}\n` +
+        `2. Click OK to open WhatsApp Desk (0739 658 520) to send your CV and M-Pesa code for instant verification.`;
+      
+      alert(instructions);
+
+      // Redirect to WhatsApp Desk (0739 658 520)
+      const waText = encodeURIComponent(
+        `Hello Admin, I have submitted my registration details on the website.\n\n` +
+        `• Name: ${name}\n` +
+        `• Phone: ${phone}\n` +
+        `• Target: ${field} (${dest})\n` +
+        `• Total Due: KES ${currentPayable} (Payable to ${MPESA_PAYMENT_LINE})\n` +
+        `• CV Revamp: ${cvRevamp ? 'YES (KES 300 included)' : 'NO'}\n` +
+        `• M-Pesa Code: ${mpesaCode}\n\n` +
+        `Attached is my current CV for verification.`
+      );
+
+      window.open(`https://wa.me/${WHATSAPP_DESK_NUMBER}?text=${waText}`, "_blank");
+      document.getElementById("candidateForm").reset();
+      updateTotalPayable();
+    }
+
+    // Filter Candidate Bank
+    function filterCandidateBank() {
+      const fieldFilter = document.getElementById("empFilterField").value;
+      const passportFilter = document.getElementById("empFilterPassport").value;
+      const cards = document.querySelectorAll(".candidate-card");
+
+      cards.forEach(card => {
+        const cardField = card.getAttribute("data-field");
+        const cardPassport = card.getAttribute("data-passport");
+
+        const matchesField = (fieldFilter === "all" || cardField === fieldFilter);
+        const matchesPassport = (passportFilter === "all" || cardPassport === passportFilter);
+
+        if (matchesField && matchesPassport) {
+          card.classList.remove("hidden");
+        } else {
+          card.classList.add("hidden");
+        }
+      });
+    }
+
+    // Standalone CV Revamp Modal (KES 300)
+    function orderCVRevampOnly() {
+      const confirmMsg = 
+        `ORDER PROFESSIONAL CV REVAMP (KES 300):\n\n` +
+        `1. Send KES 300 to M-Pesa line: ${MPESA_PAYMENT_LINE}\n` +
+        `2. Click OK to open our WhatsApp Desk (0739 658 520) and send your current CV for review.`;
+      
+      if (confirm(confirmMsg)) {
+        const text = encodeURIComponent(
+          `Hello Admin, I want to order the KES 300 ATS CV Revamp.\n` +
+          `I am sending payment to ${MPESA_PAYMENT_LINE}.\n` +
+          `Here is my current CV and M-Pesa confirmation code:`
+        );
+        window.open(`https://wa.me/${WHATSAPP_DESK_NUMBER}?text=${text}`, "_blank");
+      }
+    }
+
+    // Employer Pass Order (KES 1,000)
+    function orderEmployerPass() {
+      const confirmMsg = 
+        `EMPLOYER 20-CV UNLOCK PASS (KES 1,000):\n\n` +
+        `1. Send KES 1,000 to M-Pesa line: ${MPESA_PAYMENT_LINE}\n` +
+        `2. Click OK to open our WhatsApp Desk (0739 658 520) to receive candidate access immediately.`;
+      
+      if (confirm(confirmMsg)) {
+        const text = encodeURIComponent(
+          `Hello Admin, I am an employer/agency seeking to unlock 20 candidate CVs for KES 1,000.\n` +
+          `Payment sent to ${MPESA_PAYMENT_LINE}. Please provide access.`
+        );
+        window.open(`https://wa.me/${WHATSAPP_DESK_NUMBER}?text=${text}`, "_blank");
+      }
+    }
+
+    // Admin Dashboard Logic
+    function toggleAdminModal() {
+      const modal = document.getElementById("adminModal");
+      modal.classList.toggle("hidden");
+    }
+
+    function verifyAdminPIN() {
+      const pin = document.getElementById("adminPinInput").value;
+      if (pin === ADMIN_PASSCODE) {
+        document.getElementById("adminLoginView").classList.add("hidden");
+        document.getElementById("adminPanelView").classList.remove("hidden");
+        loadAdminRecords();
+      } else {
+        document.getElementById("pinErrorMsg").classList.remove("hidden");
+      }
+    }
+
+    function loadAdminRecords() {
+      const candidates = JSON.parse(localStorage.getItem("kazi_candidates") || "[]");
+      const tbody = document.getElementById("adminTableBody");
+      
+      let totalRev = 0;
+      let paidCount = 0;
+      let revampCount = 0;
+
+      candidates.forEach(c => {
+        if (c.status === "Verified Paid") {
+          paidCount++;
+          totalRev += Number(c.amount) || 199;
+        }
+        if (c.cvRevamp) revampCount++;
+      });
+
+      document.getElementById("adminTotalLeads").innerText = candidates.length;
+      document.getElementById("adminPaidLeads").innerText = paidCount;
+      document.getElementById("adminRevampLeads").innerText = revampCount;
+      document.getElementById("adminTotalRev").innerText = "KES " + totalRev.toLocaleString();
+
+      if (candidates.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="5" class="p-6 text-center text-slate-400">No candidates have registered yet. Submissions will appear here.</td></tr>`;
+        return;
+      }
+
+      tbody.innerHTML = candidates.map((c, index) => {
+        const isPaid = c.status === "Verified Paid";
+        return `
+          <tr class="hover:bg-slate-50 transition">
+            <td class="p-3">
+              <div class="font-bold text-slate-900">${c.name}</div>
+              <div class="text-[10px] text-slate-500">${c.phone} • ${c.date}</div>
+            </td>
+            <td class="p-3">
+              <div class="font-medium text-slate-800">${c.field}</div>
+              <div class="text-[10px] text-slate-500">${c.dest} • ${c.passport}</div>
+            </td>
+            <td class="p-3 font-bold text-slate-900">
+              KES ${c.amount}
+              ${c.cvRevamp ? '<span class="block text-[9px] text-amber-700 font-black">+ CV REVAMP</span>' : ''}
+            </td>
+            <td class="p-3">
+              <span class="inline-block px-2 py-0.5 rounded-full text-[10px] font-bold ${isPaid ? 'bg-emerald-100 text-emerald-800' : 'bg-amber-100 text-amber-800'}">
+                ${c.status}
+              </span>
+              ${c.mpesaCode ? `<div class="font-mono text-[9px] text-slate-500 mt-0.5 font-bold">${c.mpesaCode}</div>` : ''}
+            </td>
+            <td class="p-3 text-right space-x-1">
+              <a href="https://wa.me/254${c.phone.replace(/[^0-9]/g, '').slice(-9)}" target="_blank" class="inline-block bg-emerald-600 text-white px-2 py-1 rounded text-[10px] font-bold hover:bg-emerald-700">
+                <i class="fab fa-whatsapp"></i> Chat
+              </a>
+              ${!isPaid ? `
+                <button onclick="markCandidatePaid(${index})" class="bg-slate-900 text-white px-2 py-1 rounded text-[10px] font-bold hover:bg-slate-800">
+                  Verify Pay
+                </button>
+              ` : ''}
+            </td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    function markCandidatePaid(index) {
+      const candidates = JSON.parse(localStorage.getItem("kazi_candidates") || "[]");
+      if (candidates[index]) {
+        candidates[index].status = "Verified Paid";
+        localStorage.setItem("kazi_candidates", JSON.stringify(candidates));
+        loadAdminRecords();
+      }
+    }
+
+    // Export Leads as CSV
+    function exportCandidatesCSV() {
+      const candidates = JSON.parse(localStorage.getItem("kazi_candidates") || "[]");
+      if (candidates.length === 0) {
+        alert("No candidate data to export yet.");
+        return;
+      }
+
+      let csv = "ID,Name,Phone,Target,Passport,Field,Amount,Status,M-Pesa Code,CV Revamp,Date\n";
+      candidates.forEach(c => {
+        csv += `"${c.id}","${c.name}","${c.phone}","${c.dest}","${c.passport}","${c.field}","${c.amount}","${c.status}","${c.mpesaCode || ''}","${c.cvRevamp ? 'Yes' : 'No'}","${c.date}"\n`;
+      });
+
+      const blob = new Blob([csv], { type: 'text/csv' });
+      const url = window.URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.setAttribute('hidden', '');
+      a.setAttribute('href', url);
+      a.setAttribute('download', `kazi_candidates_${new Date().toISOString().slice(0,10)}.csv`);
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    }
+  </script>
+</body>
+</html>
